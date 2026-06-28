@@ -1,0 +1,11 @@
+sales_teritory_key,sales_teritory_region,sales_teritory_group
+9,Australia,Pacific
+6,Canada,North America
+8,Germany,Europe
+7,France,Europe
+10,United Kingdom,Europe
+5,Southeast,North America
+4,Southwest,North America
+3,Central,North America
+2,Northeast,North America
+1,Northwest,North America
