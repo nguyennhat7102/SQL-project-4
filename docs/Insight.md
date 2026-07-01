@@ -255,86 +255,68 @@ Treat insights from Central, Northeast, and Southeast with caution because their
 
 # Advanced Analytics Techniques Applied
 
-## Pareto Analysis
+### 1. Pareto Analysis
 
-Purpose:
+| products_for_80_percent | total_products | product_percentage |
+| ----------------------- | -------------: | -----------------: |
+| 46                      |            158 |             29.11% |
 
-Identify whether a small proportion of products generates most company revenue.
+>Insight: The results show that the Pareto principle (80/20 rule) does not strictly apply to this business. Instead of 20% of products generating 80% of revenue, it takes approximately 29% of products to achieve the same contribution. This indicates that revenue is moderately concentrated across the product portfolio rather than being heavily dependent on a very small number of products.
 
-Business Value:
+### Recommendation
 
-- Inventory optimization
-- Product prioritization
-- Revenue risk assessment
-
----
-
-## Profit Pool Analysis
-
-Purpose:
-
-Compare revenue contribution against profit contribution.
-
-Business Value:
-
-- Resource allocation
-- Product strategy
-- Margin optimization
+>Focus inventory planning, marketing campaigns, and product availability on the 46 high-performing products, as they generate the majority of revenue.
+Continue monitoring the remaining products to identify slow-moving or underperforming items that may require promotional strategies or portfolio optimization.
+Since revenue is not extremely concentrated, maintaining a diverse product portfolio remains important to reduce reliance on a handful of products and improve business resilience.
 
 ---
 
-## Cohort Retention Analysis
+### 2. Which products have low margins despite strong sales? (Product Portfolio Analysis)
 
-Purpose:
+| Product Name            |    Revenue |       Cost |     Profit | Margin | Revenue Rank | Margin Rank | Product Segment                |
+| ----------------------- | ---------: | ---------: | ---------: | -----: | -----------: | ----------: | ------------------------------ |
+| Road-250 Black, 52      | 734,400.77 | 455,734.61 | 278,666.16 |   0.38 |       0.9147 |      0.1705 | Risk (High Sales - Low Margin) |
+| Road-250 Red, 58        | 702,637.22 | 435,520.26 | 267,116.96 |   0.38 |       0.9070 |      0.1705 | Risk (High Sales - Low Margin) |
+| Road-250 Black, 48      | 691,205.91 | 430,343.03 | 260,862.88 |   0.38 |       0.8992 |      0.1705 | Risk (High Sales - Low Margin) |
+| Road-250 Black, 44      | 628,376.94 | 391,170.62 | 237,206.32 |   0.38 |       0.8915 |      0.1705 | Risk (High Sales - Low Margin) |
+| Road-250 Black, 58      | 622,006.74 | 386,101.62 | 235,905.12 |   0.38 |       0.8837 |      0.1705 | Risk (High Sales - Low Margin) |
+| Touring-1000 Blue, 46   | 421,980.39 | 262,303.38 | 159,677.01 |   0.38 |       0.8760 |      0.1705 | Risk (High Sales - Low Margin) |
+| Road-350-W Yellow, 40   | 418,443.54 | 266,297.46 | 152,146.08 |   0.36 |       0.8682 |      0.0698 | Risk (High Sales - Low Margin) |
+| Touring-1000 Yellow, 46 | 410,060.04 | 254,893.68 | 155,166.36 |   0.38 |       0.8605 |      0.1705 | Risk (High Sales - Low Margin) |
+| Road-350-W Yellow, 42   | 399,732.65 | 254,389.85 | 145,342.80 |   0.36 |       0.8527 |      0.0698 | Risk (High Sales - Low Margin) |
+| Road-250 Red, 48        | 395,822.70 | 246,043.98 | 149,778.72 |   0.38 |       0.8450 |      0.1705 | Risk (High Sales - Low Margin) |
+| ...                     |        ... |        ... |        ... |    ... |          ... |         ... | ...                            |
 
-Measure customer retention over time.
 
-Business Value:
+>Insight: These products are important revenue drivers but deliver relatively low returns compared with their sales volume. A significant portion of revenue is absorbed by product costs, limiting overall profitability. While these products attract strong customer demand, improving their margins could have a meaningful impact on total business profit.
 
-- Customer lifecycle understanding
-- Marketing effectiveness evaluation
-- Retention strategy development
-
----
-
-## Repurchase Cycle Analysis
-
-Purpose:
-
-Estimate the typical time between purchases.
-
-Business Value:
-
-- Campaign timing optimization
-- Customer engagement planning
-- Demand forecasting
-
+### Recommendation 
+> Review the pricing strategy for these products to determine whether modest price increases are feasible without reducing demand.
+Investigate production, procurement, or supply chain costs to identify opportunities for cost reduction.
+Bundle these products with higher-margin accessories or complementary items to increase overall profitability.
+Continuously monitor these products, as maintaining high sales alone is insufficient if profit margins remain compressed.
 ---
 
 # Business Recommendations
-
 ### Short-Term
-
-- Increase accessory cross-selling.
-- Focus marketing investment on high-performing territories.
-- Improve post-purchase customer engagement.
+- Increase cross-selling and upselling opportunities by bundling high-margin accessories with best-selling bicycle products.
+- Prioritize marketing and inventory allocation in high-performing sales territories, particularly Australia, Southwest, and Northwest.
+- Improve post-purchase engagement through personalized email campaigns and promotional offers to encourage repeat purchases within the first 30 days.
 
 ### Medium-Term
-
-- Reduce dependency on a small number of products.
-- Develop customer retention initiatives.
-- Expand profitable accessory categories.
+- Optimize the product portfolio by improving the profitability of high-revenue but low-margin products through pricing and cost optimization.
+- Strengthen customer retention with loyalty incentives and targeted campaigns aimed at converting one-time buyers into repeat customers.
+- Expand investment in product categories and territories that demonstrate strong revenue growth and sustainable profit margins.
 
 ### Long-Term
+- Implement Customer Lifetime Value (CLV) tracking to support long-term customer relationship management.
+- Introduce a membership or loyalty program to increase purchase frequency and long-term customer value.
+- Develop a data-driven decision framework that continuously monitors product performance, customer behavior, and regional sales trends to support strategic planning.
 
-- Build customer lifetime value tracking.
-- Introduce loyalty and membership programs.
-- Improve retention across future customer cohorts.
+## Conclusion
 
----
+The analysis shows that AdventureWorks' revenue is primarily driven by the Bikes category and several high-performing sales territories, with Australia contributing the largest share of revenue and profit. Although overall business performance is strong, revenue remains moderately concentrated in a limited portion of the product portfolio, and several high-selling products operate with relatively low profit margins.
 
-# Conclusion
+Customer analysis also reveals that most customers make only one purchase, highlighting customer retention as a key opportunity for future growth.
 
-The analysis reveals that AdventureWorks is driven primarily by bicycle sales and a small number of key territories. While revenue performance is strong, customer retention remains a challenge and profit opportunities exist within high-margin accessory products.
-
-Future growth should focus on increasing customer lifetime value, strengthening retention, and expanding profitable product categories.
+To achieve sustainable long-term performance, AdventureWorks should  **_focus on optimizing product profitability, increasing customer retention, and investing in its strongest markets while leveraging data-driven insights to support strategic business decisions._**

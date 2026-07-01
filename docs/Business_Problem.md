@@ -1,4 +1,3 @@
-x# Business Problem
 
 ## Background
 
